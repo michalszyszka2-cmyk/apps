@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Apps – small Windows tools by Michal Szyszka</title>
+<meta name="description" content="Small Windows tools Michal built. Free. Install in one click.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Archivo:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+
+<header>
+  <h1>Apps</h1>
+  <p class="lede">Small Windows tools I built. Free. Install in one click.</p>
+</header>
+
+<!-- ===== APP: Snip ===== -->
+<article class="app" id="snip">
+  <h2>Snip</h2>
+  <p class="what">Press one key combination, drag a box, and that part of the screen is on your clipboard.</p>
+
+  <img src="assets/snip.png" alt="Snip in use: the screen dims and the dragged box stays bright" width="1600" height="900">
+
+  <h3>What it's about</h3>
+  <p>I paste screenshots into Claude all day and wanted the shortest path from screen to clipboard. Snip waits in the tray with nothing to open. The screen freezes and dims while you drag, so menus and tooltips stay put. Snips are shrunk to the size chat tools use anyway, so a whole 4K screen pastes in a moment. Nothing is saved to disk.</p>
+
+  <h3>How to use</h3>
+  <p>Press <kbd>Ctrl</kbd> + <kbd>'</kbd> + <kbd>#</kbd> together, drag a box, then paste with <kbd>Ctrl</kbd> + <kbd>V</kbd>. <kbd>Esc</kbd> cancels. Right-click the tray camera for Snip now, Quit or Uninstall.</p>
+
+  <p class="links">
+    <a class="download" href="https://github.com/michalszyszka2-cmyk/snip/releases/download/v1.0/snip.exe">Download Snip</a>
+    <a class="source" href="https://github.com/michalszyszka2-cmyk/snip">Source</a>
+  </p>
+  <p class="note">Double-click snip.exe and it installs itself and starts with Windows. No admin rights. Windows may say "Windows protected your PC": click More info, then Run anyway.</p>
+</article>
+
+<!-- ===== APP: Dictate ===== -->
+<article class="app" id="dictate">
+  <h2>Dictate</h2>
+  <p class="what">Hold a key, talk, let go. The words appear where your cursor is, cleaned up, in any app.</p>
+
+  <img src="assets/dictate.png" alt="Dictate's spectrum meter at the bottom of the screen while recording" width="1600" height="640">
+
+  <h3>What it's about</h3>
+  <p>I used Wispr Flow until the free tier ran out of words each week. Dictate is my own version with no cap. Speech is recognised on your own PC by an open model from NVIDIA called Parakeet, so nothing leaves the machine unless you add an optional clean-up step, which sends the text to a small language model to fix grammar and punctuation. A Winamp-style meter shows it is hearing you. It understands English and Polish.</p>
+
+  <h3>How to use</h3>
+  <p>Hold <kbd>Right Shift</kbd>, speak, release. <kbd>Esc</kbd> while holding cancels. The tray icon turns dictation on and off.</p>
+
+  <p class="links">
+    <a class="download" href="https://github.com/michalszyszka2-cmyk/dictate/releases/download/v0.9.0/dictate-setup-0.9.0.exe">Download Dictate</a>
+    <a class="source" href="https://github.com/michalszyszka2-cmyk/dictate">Source</a>
+  </p>
+  <p class="note">Sign in to GitHub first: the repo is private, so the link only works for people I have added. Run the setup, no admin rights. Windows may say "unknown publisher": click More info, then Run anyway. The speech model downloads on first start.</p>
+</article>
+
+<!-- ===== NEXT APP GOES HERE: copy an <article class="app"> block above, change id, name, text, image and links ===== -->
+
+<footer>
+  <p>Built by <a href="https://michaltech.co.uk">Michal Szyszka</a></p>
+</footer>
+
+</main>
+</body>
+</html>
